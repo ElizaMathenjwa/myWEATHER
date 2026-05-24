@@ -10,29 +10,36 @@
   <div class="weather-app">
   <header>
     <form class="search-form" id="search-form">
-      <input type="text" name="name" placeholder="Enter your name"
+      <input type="search" name="name" placeholder="Enter a city..."
        required
           id="search-form-input"
           class="search-form-input"
       >
-      <input type="submit" value="Submit" class="search-form-button" >
+      <input type="submit" value="Search" class="search-form-button" >
     </form>
     </header>
     <main>
       <div class="weather-app-data">
-      <h1 class="weather-app-city">Paris</h1>
+        <div>
+      <h1 class="weather-app-city"> Paris</h1>
+
       <p class="weather-app-details">tuesday 13:44, scattered clouds<br/>
-        humidity: 65% wind: 5.14 m/s
-        
+        humidity: <strong>65% </strong>
+        wind: <strong>5.14 m/s</strong>
+       
       </p>
+        </div>
       <div class="weather-app-temperature-container">
-        <div class="weather-app-temperature">
-        <div class="emoji">☀️</div>12°C
+        
+        <div class="emoji">☀️</div>
+        <div class="weather-app-temperature">12</div>
+      <div class="weather-app-unit">°C</div>
+        
         </div>
       </div>
     </main>
     <footer>
-      <p>Created by <a href="https://www.linkedin.com/in/eliza-mathenjwa">Eliza Mathenjwa</a>, is <a href="https://github.com/elizamathenjwa/myWEATHER">open sourced on github</a> and is <a href="https://myweather.elizamathenjwa.netlify.app/"> hosted on netlify </a></p>
+      <p>this project was coded by <a href="https://www.linkedin.com/in/eliza-mathenjwa">Eliza Mathenjwa</a>, is <a href="https://github.com/elizamathenjwa/myWEATHER">open sourced on github</a> and is <a href="https://myweather.elizamathenjwa.netlify.app/"> hosted on netlify </a></p>
     </footer>
 
     </div>
