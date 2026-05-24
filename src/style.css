@@ -1,6 +1,77 @@
+body {
+  background: linear-gradient(88.8deg, rgb(239, 171, 245) 13.4%, rgb(196, 181, 249) 76.3%);
+  font-size: 15px;
+}
+
+.weather-app {
+  background: rgb(250, 241, 247);
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 10px;
+  box-shadow: grey;
+  border-radius: 10px;
+}
+
+.search-form-input {
+  background-color: ;background: linear-gradient(88.8deg, rgb(239, 171, 245) 13.4%, rgb(196, 181, 249) 76.3%);
+  border: none;
+  width: 60%;
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 6px;
+}
+
+.search-form-button {
+background: rgb(179, 119, 179);
+border: none;
+padding: 15px 20px;
+color: aliceblue;
+border-radius: 6px;
+}
+
+main {
+  padding: 30px 0;
+}
+
+.weather-app-data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.weather-app-city {
+  margin: 0;
+  font-size: 38px;
+  line-height: 48px;
+}
+
+.weather-app-details strong {
+  color: rgb(156, 24, 145);
+}
+
+a {
+  color: rgb(156, 24, 145);
+}
+
 .weather-app-details {
   font-size: 16px;
   color: rgba(39, 33, 66, 0.4);
-  line-height: 24px;
+  line-height: 20px;
   font-weight: 500;
+}
+.weather-app-temperature-container {
+  display: flex;
+}
+.weather-app-temperature {
+  font-size: 88px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+.emoji {
+  font-size: 44px;
+  margin-top: 22px;
+}
+
+.weather-app-unit {
+  margin-top: 16px;
+  font-size: 28px;
 }
